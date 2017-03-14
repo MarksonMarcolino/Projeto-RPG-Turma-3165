@@ -18,9 +18,16 @@ public abstract class Equipamento {
     private int valorVenda;
     private int valorCompra;
 
-    /**
-     * @return the defesa
-     */
+        public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+        this.defesa = defesa;
+        this.defesaMagica = defesaMagica;
+        this.peso = peso;
+        this.descricao = descricao;
+        this.nome = nome;
+        this.valorVenda = valorVenda;
+        this.valorCompra = valorCompra;
+    }
+
     public int getDefesa() {
         return defesa;
     }
