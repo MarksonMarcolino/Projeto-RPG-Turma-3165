@@ -17,7 +17,9 @@ public abstract class Equipamento {
     private String nome;
     private int valorVenda;
     private int valorCompra;
-
+    public Equipamento(int defesa,int defesaMagica,int peso,String descricao,String nome,int valorVenda, int valorCompra ){
+        
+    }
     /**
      * @return the defesa
      */
