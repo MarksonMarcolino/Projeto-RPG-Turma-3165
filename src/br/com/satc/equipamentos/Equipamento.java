@@ -10,6 +10,8 @@ package br.com.satc.equipamentos;
  * @author Markson
  */
 public abstract class Equipamento {
+
+    
     private int defesa;
     private int defesaMagica;
     private int peso;
@@ -18,9 +20,16 @@ public abstract class Equipamento {
     private int valorVenda;
     private int valorCompra;
 
-    /**
-     * @return the defesa
-     */
+    public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+        this.defesa = defesa;
+        this.defesaMagica = defesaMagica;
+        this.peso = peso;
+        this.descricao = descricao;
+        this.nome = nome;
+        this.valorVenda = valorVenda;
+        this.valorCompra = valorCompra;
+    }
+    
     public int getDefesa() {
         return defesa;
     }
