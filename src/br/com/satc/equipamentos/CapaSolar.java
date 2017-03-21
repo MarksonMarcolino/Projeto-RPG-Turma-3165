@@ -1,0 +1,54 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.satc.equipamentos;
+
+/**
+ *
+ * @author Edutec
+ */
+public class CapaSolar extends Equipamento{
+    private int dano;
+    private int danocritico;
+    private int nvlmin;
+    public CapaSolar(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
+        this.setDano(2);
+        this.setDanocritico(2);
+        this.setDefesa(5);
+        this.setDefesaMagica(3);
+        this.setPeso(3);
+        this.setNome("Capa Solar");
+        this.setValorCompra(4550);
+        this.setValorVenda(3550);
+        this.setDescricao("Capa forjada no vulcão mais quente de todoo reino para ter um defesa surreal");
+        this.setNvlmin(10);
+    }
+
+    public int getDano() {
+        return dano;
+    }
+
+    public void setDano(int dano) {
+        this.dano = dano;
+    }
+
+    public int getDanocritico() {
+        return danocritico;
+    }
+
+    public void setDanocritico(int danocritico) {
+        this.danocritico = danocritico;
+    }
+
+    public int getNvlmin() {
+        return nvlmin;
+    }
+
+    public void setNvlmin(int nvlmin) {
+        this.nvlmin = nvlmin;
+    }
+    
+}
