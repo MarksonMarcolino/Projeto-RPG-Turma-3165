@@ -9,12 +9,12 @@ package br.com.satc.equipamentos;
  *
  * @author Edutec
  */
-public class CapaGalante extends Equipamento{
+public class Capadecouro extends Equipamento{
     private int dano;
     private int agilidade;
     private int danocritico;
     private int nvlmin;
-    public CapaGalante(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+    public Capadecouro(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
         super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
         this.setAgilidade(1);
         this.setDano(4);
@@ -25,7 +25,7 @@ public class CapaGalante extends Equipamento{
         this.setNome("Capa Galante");
         this.setValorCompra(4550);
         this.setValorVenda(3550);
-        this.setDescricao("Usada pelo guerreiro mais galante de todo o reino.");
+        this.setDescricao("Capa feita do couro de um touro forte portanto quem a usala terá a sua força.");
         this.setNvlmin(9);
     }
 
