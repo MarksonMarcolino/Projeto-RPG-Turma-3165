@@ -14,10 +14,9 @@ public class AFaquinha extends Arma implements IaFaquinha {
     private int afiado;
     private int turno;
     
-    public AFaquinha(String desc, String nome, int dano, int alcance, int up, int nivel, float valor, float valorC, float valorV) {
-        super(desc, nome, dano, alcance, up, nivel, valorC, valorV);
+    public AFaquinha(String desc, String nome, int dano, int up, int nivel, float valor, float valorC, float valorV) {
+        super(desc, nome, dano, up, nivel, valorC, valorV);
         this.setAfiado(5);
-        this.setAlcance(5);
         this.setDesc("Esta faca foi forjada com o unico propósito de CORTAR CARNE, tão afiada quanto as garas de um gato"
                 + " e tão dicreta quanto um camaleão.");
         this.setNome("A faquinha");

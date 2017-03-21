@@ -34,13 +34,12 @@ public class AdagaDaMorte extends Arma implements IAdagaDaMorte{
         this.turno = turno;
     }
 
-   public AdagaDaMorte(String desc, String nome, int dano, int alcance, int up, int nivel, float valor,  float valorC, float valorV) {
-        super(desc, nome, dano, alcance, up, nivel, valorC, valorV);
+   public AdagaDaMorte(String desc, String nome, int dano, int up, int nivel, float valor,  float valorC, float valorV) {
+        super(desc, nome, dano, up, nivel, valorC, valorV);
         this.setAfiado(5);
         this.setDesc("Uma adaga forjada com aço puro no fogo de um dragão");
         this.setNome("Adaga da morte");
         this.setDano(10);
-        this.setAlcance(2);
         this.setTurno(1);
         this.setPeso(3);
         this.setValorC(800);

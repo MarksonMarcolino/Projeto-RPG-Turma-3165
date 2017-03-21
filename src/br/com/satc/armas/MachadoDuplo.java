@@ -6,10 +6,9 @@ public class MachadoDuplo extends Arma implements IMachadoDuplo {
     private float peso;
     private int turno;
 
-    public MachadoDuplo(String desc, String nome, int dano, int alcance, int up, int nivel, float valor, float valorC, float valorV) {
-        super(desc, nome, dano, alcance, up, nivel, valorC, valorV);
+    public MachadoDuplo(String desc, String nome, int dano, int up, int nivel, float valor, float valorC, float valorV) {
+        super(desc, nome, dano, up, nivel, valorC, valorV);
         this.setAfiado(4);
-        this.setAlcance(2);
         this.setDano(15);
         this.setDesc("O Machado Duplo é uma arma branca, disponível no nivel 10 ao 15, produzido por um ferreiro, forjada com fogo.");
         this.setNome("Machado²");

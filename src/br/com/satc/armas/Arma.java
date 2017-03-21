@@ -5,8 +5,7 @@ public abstract class Arma {
     private float valorC, valorV;
 
     
-    public Arma(String desc, String nome, int dano, int alcance, int up, int nivel, float valorC, float valorV){
-          this.setAlcance(alcance);
+    public Arma(String desc, String nome, int dano, int up, int nivel, float valorC, float valorV){
           this.setDano(dano);
           this.setDesc(desc);
           this.setNome(nome);
