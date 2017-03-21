@@ -23,7 +23,7 @@ public class CapaAlfa extends Equipamento{
         this.setNome("Capa Alfa");
         this.setValorCompra(3550);
         this.setValorVenda(2550);
-        this.setDescricao("Feito da pele de um Lobo Alfa em uma das montanhas mais geladas do reino.");
+        this.setDescricao("Feito da pele de um Lobo Alfa em uma das montanhas mais gelidas do reino.");
         this.setNvlmin(8);
     }
 
