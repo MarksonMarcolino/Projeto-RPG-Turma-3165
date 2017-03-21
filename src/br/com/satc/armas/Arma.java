@@ -1,21 +1,45 @@
 package br.com.satc.armas;
 public abstract class Arma {
     private String desc, nome;
-    private int dano, alcance, up, precisao;
+    private int dano, alcance, up, nivel;
+    private float valorC, valorV;
 
     
-    public Arma(String desc, String nome, int dano, int alcance, int up,int precisao){
+    public Arma(String desc, String nome, int dano, int alcance, int up, int nivel, float valorC, float valorV){
           this.setAlcance(alcance);
           this.setDano(dano);
           this.setDesc(desc);
           this.setNome(nome);
-          this.setPrecisao(precisao);
           this.setUp(up);
-        
+          this.setNivel(nivel);
+          this.setValorC(valorC);
+          this.setValorV(valorV);
     }
-    /**
-     * @return the desc
-     */
+
+    public float getValorC() {
+        return valorC;
+    }
+
+    public void setValorC(float valorC) {
+        this.valorC = valorC;
+    }
+
+    public float getValorV() {
+        return valorV;
+    }
+
+    public void setValorV(float valorV) {
+        this.valorV = valorV;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
     public String getDesc() {
         return desc;
     }
@@ -83,18 +107,5 @@ public abstract class Arma {
         this.up = up;
     }
 
-    /**
-     * @return the precisa
-     */
-    public int getPrecisao() {
-        return precisao;
-    }
-
-    /**
-     * @param precisa the precisa to set
-     */
-    public void setPrecisao(int precisao) {
-        this.precisao = precisao;
     }
     
-}

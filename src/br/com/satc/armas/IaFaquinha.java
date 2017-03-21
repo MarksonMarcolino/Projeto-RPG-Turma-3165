@@ -9,6 +9,6 @@ package br.com.satc.armas;
  *
  * @author Edutec
  */
-public interface IA_Faquinha {
+public interface IaFaquinha {
     public void UpFaquinha(); 
 }
