@@ -9,11 +9,11 @@ package br.com.satc.equipamentos;
  *
  * @author Edutec
  */
-public class Capadaforça extends Equipamento{
+public class Capadedano extends Equipamento{
     private int dano;
     private int agilidade;
     private int danocritico;
-    public Capadaforça(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+    public Capadedano(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
         super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
         this.setAgilidade(1);
         this.setDano(4);
@@ -21,7 +21,7 @@ public class Capadaforça extends Equipamento{
         this.setDefesa(3);
         this.setDefesaMagica(1);
         this.setPeso(3);
-        this.setNome("Capa ");
+        this.setNome("Capa de Dano");
         this.setValorCompra(4000);
         this.setValorVenda(2000);
         this.setDescricao("Capa feita do couro de um touro forte portanto quem a usala terá a sua força.");
