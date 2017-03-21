@@ -9,12 +9,12 @@ package br.com.satc.equipamentos;
  *
  * @author Edutec
  */
-public class Capadecouro extends Equipamento{
+public class Capadaforça extends Equipamento{
     private int dano;
     private int agilidade;
     private int danocritico;
     private int nvlmin;
-    public Capadecouro(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+    public Capadaforça(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
         super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
         this.setAgilidade(1);
         this.setDano(4);

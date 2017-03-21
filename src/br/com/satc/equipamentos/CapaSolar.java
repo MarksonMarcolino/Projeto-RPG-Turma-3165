@@ -19,7 +19,7 @@ public class CapaSolar extends Equipamento{
         this.setDanocritico(2);
         this.setDefesa(5);
         this.setDefesaMagica(3);
-        this.setPeso(3);
+        this.setPeso(4);
         this.setNome("Capa Solar");
         this.setValorCompra(6550);
         this.setValorVenda(5550);
