@@ -12,9 +12,8 @@ package br.com.satc.equipamentos;
 public class CapaAlfa extends Equipamento{
     private int destreza;
     private int agilidade;
-    private int nvlmin;
-    public CapaAlfa(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
+    public CapaAlfa(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
         this.setAgilidade(4);
         this.setDestreza(2);
         this.setDefesa(2);
@@ -41,13 +40,5 @@ public class CapaAlfa extends Equipamento{
 
     public void setAgilidade(int agilidade) {
         this.agilidade = agilidade;
-    }
-
-    public int getNvlmin() {
-        return nvlmin;
-    }
-
-    public void setNvlmin(int nvlmin) {
-        this.nvlmin = nvlmin;
     }
 }

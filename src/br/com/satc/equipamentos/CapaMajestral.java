@@ -14,9 +14,8 @@ public class CapaMajestral extends Equipamento{
     private int destreza;
     private int sorte;
     private int agilidade;
-    private int nvlmin;
-    public CapaMajestral(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
+    public CapaMajestral(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
         this.setAgilidade(3);
         this.setSorte(4);
         this.setInteligencia(5);
@@ -63,13 +62,4 @@ public class CapaMajestral extends Equipamento{
     public void setAgilidade(int agilidade) {
         this.agilidade = agilidade;
     }
-
-    public int getNvlmin() {
-        return nvlmin;
-    }
-
-    public void setNvlmin(int nvlmin) {
-        this.nvlmin = nvlmin;
-    }
-    
 }

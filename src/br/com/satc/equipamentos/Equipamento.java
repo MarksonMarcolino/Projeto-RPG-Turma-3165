@@ -17,8 +17,9 @@ public abstract class Equipamento {
     private String nome;
     private int valorVenda;
     private int valorCompra;
+    private int nvlmin;
 
-        public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+        public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
         this.defesa = defesa;
         this.defesaMagica = defesaMagica;
         this.peso = peso;
@@ -26,6 +27,7 @@ public abstract class Equipamento {
         this.nome = nome;
         this.valorVenda = valorVenda;
         this.valorCompra = valorCompra;
+        this.nvlmin = nvlmin;
     }
 
     public int getDefesa() {
@@ -121,6 +123,14 @@ public abstract class Equipamento {
      */
     public void setValorCompra(int valorCompra) {
         this.valorCompra = valorCompra;
+    }
+
+    public int getNvlmin() {
+        return nvlmin;
+    }
+
+    public void setNvlmin(int nvlmin) {
+        this.nvlmin = nvlmin;
     }
     
             

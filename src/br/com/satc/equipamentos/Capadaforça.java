@@ -13,9 +13,8 @@ public class Capadaforça extends Equipamento{
     private int dano;
     private int agilidade;
     private int danocritico;
-    private int nvlmin;
-    public Capadaforça(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
+    public Capadaforça(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
         this.setAgilidade(1);
         this.setDano(4);
         this.setDanocritico(3);
@@ -51,14 +50,5 @@ public class Capadaforça extends Equipamento{
 
     public void setDanocritico(int danocritico) {
         this.danocritico = danocritico;
-    }
-
-    public int getNvlmin() {
-        return nvlmin;
-    }
-
-    public void setNvlmin(int nvlmin) {
-        this.nvlmin = nvlmin;
-    }
-    
+    }  
 }

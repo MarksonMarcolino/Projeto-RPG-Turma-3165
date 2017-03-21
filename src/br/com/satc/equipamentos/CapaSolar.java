@@ -12,9 +12,8 @@ package br.com.satc.equipamentos;
 public class CapaSolar extends Equipamento{
     private int dano;
     private int danocritico;
-    private int nvlmin;
-    public CapaSolar(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
+    public CapaSolar(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
         this.setDano(2);
         this.setDanocritico(2);
         this.setDefesa(5);
@@ -41,14 +40,6 @@ public class CapaSolar extends Equipamento{
 
     public void setDanocritico(int danocritico) {
         this.danocritico = danocritico;
-    }
-
-    public int getNvlmin() {
-        return nvlmin;
-    }
-
-    public void setNvlmin(int nvlmin) {
-        this.nvlmin = nvlmin;
     }
     
 }
