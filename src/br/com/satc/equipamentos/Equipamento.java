@@ -17,7 +17,18 @@ public abstract class Equipamento {
     private String nome;
     private int valorVenda;
     private int valorCompra;
+    private int lvlm;
 
+    public int getLvlm() {
+        return lvlm;
+    }
+
+    public void setLvlm(int lvlm) {
+        this.lvlm = lvlm;
+    }
+    public Equipamento(int defesa,int defesaMagica,int peso,String descricao,String nome,int valorVenda, int valorCompra ){
+        
+    }
     /**
      * @return the defesa
      */
