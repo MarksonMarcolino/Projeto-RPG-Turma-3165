@@ -9,22 +9,34 @@ package br.com.satc.equipamentos;
  *
  * @author Edutec
  */
-public class CapaAlfa extends Equipamento{
+public class CapaMajestral extends Equipamento{
+    private int inteligencia;
     private int destreza;
+    private int sorte;
     private int agilidade;
     private int nvlmin;
-    public CapaAlfa(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
+    public CapaMajestral(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
         super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
-        this.setAgilidade(4);
-        this.setDestreza(2);
-        this.setDefesa(2);
+        this.setAgilidade(3);
+        this.setSorte(4);
+        this.setInteligencia(5);
+        this.setDestreza(4);
+        this.setDefesa(3);
         this.setDefesaMagica(3);
-        this.setPeso(2);
-        this.setNome("Capa Alfa");
-        this.setValorCompra(3550);
-        this.setValorVenda(2550);
-        this.setDescricao("Feito da pele de um Lobo Alfa em uma das montanhas mais geladas do reino");
-        this.setNvlmin(8);
+        this.setPeso(3);
+        this.setNome("Capa Majestral");
+        this.setValorCompra(7550);
+        this.setValorVenda(6550);
+        this.setDescricao("");
+        this.setNvlmin(14);
+    }
+
+    public int getInteligencia() {
+        return inteligencia;
+    }
+
+    public void setInteligencia(int inteligencia) {
+        this.inteligencia = inteligencia;
     }
 
     public int getDestreza() {
@@ -33,6 +45,14 @@ public class CapaAlfa extends Equipamento{
 
     public void setDestreza(int destreza) {
         this.destreza = destreza;
+    }
+
+    public int getSorte() {
+        return sorte;
+    }
+
+    public void setSorte(int sorte) {
+        this.sorte = sorte;
     }
 
     public int getAgilidade() {
@@ -50,4 +70,5 @@ public class CapaAlfa extends Equipamento{
     public void setNvlmin(int nvlmin) {
         this.nvlmin = nvlmin;
     }
+    
 }

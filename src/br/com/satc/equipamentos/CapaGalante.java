@@ -16,12 +16,12 @@ public class CapaGalante extends Equipamento{
     private int nvlmin;
     public CapaGalante(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra) {
         super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra);
-        this.setAgilidade(2);
+        this.setAgilidade(1);
         this.setDano(4);
         this.setDanocritico(3);
-        this.setDefesa(2);
-        this.setDefesaMagica(2);
-        this.setPeso(2);
+        this.setDefesa(3);
+        this.setDefesaMagica(1);
+        this.setPeso(3);
         this.setNome("Capa Galante");
         this.setValorCompra(4550);
         this.setValorVenda(3550);
