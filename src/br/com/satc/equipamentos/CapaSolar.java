@@ -20,8 +20,8 @@ public class CapaSolar extends Equipamento{
         this.setDefesaMagica(3);
         this.setPeso(4);
         this.setNome("Capa Solar");
-        this.setValorCompra(6550);
-        this.setValorVenda(5550);
+        this.setValorCompra(7000);
+        this.setValorVenda(3500);
         this.setDescricao("Capa forjada no vulcão mais quente de todo reino para ter um defesa surreal.");
         this.setNvlmin(11);
     }

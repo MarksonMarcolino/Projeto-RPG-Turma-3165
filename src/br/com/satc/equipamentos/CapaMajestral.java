@@ -24,11 +24,11 @@ public class CapaMajestral extends Equipamento{
         this.setDefesaMagica(3);
         this.setPeso(3);
         this.setNome("Capa Majestral");
-        this.setValorCompra(7550);
-        this.setValorVenda(6550);
+        this.setValorCompra(10000);
+        this.setValorVenda(5000);
         this.setDescricao("Esta capa foi de um mago antigo porem muito poderoso que queria deixar "
                         + "seu legado de alguma maneira então pegou algumas de suas habilidades e imortalizou nesta capa.");
-        this.setNvlmin(13);
+        this.setNvlmin(15);
     }
 
     public int getInteligencia() {

@@ -21,11 +21,11 @@ public class Capadaforça extends Equipamento{
         this.setDefesa(3);
         this.setDefesaMagica(1);
         this.setPeso(3);
-        this.setNome("Capa Galante");
-        this.setValorCompra(4550);
-        this.setValorVenda(3550);
+        this.setNome("Capa ");
+        this.setValorCompra(4000);
+        this.setValorVenda(2000);
         this.setDescricao("Capa feita do couro de um touro forte portanto quem a usala terá a sua força.");
-        this.setNvlmin(9);
+        this.setNvlmin(10);
     }
 
     public int getDano() {

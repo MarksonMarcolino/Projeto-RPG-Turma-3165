@@ -20,10 +20,10 @@ public class CapaAlfa extends Equipamento{
         this.setDefesaMagica(3);
         this.setPeso(2);
         this.setNome("Capa Alfa");
-        this.setValorCompra(3550);
-        this.setValorVenda(2550);
+        this.setValorCompra(6000);
+        this.setValorVenda(3000);
         this.setDescricao("Feito da pele de um Lobo Alfa em uma das montanhas mais gelidas do reino.");
-        this.setNvlmin(8);
+        this.setNvlmin(10);
     }
 
     public int getDestreza() {
