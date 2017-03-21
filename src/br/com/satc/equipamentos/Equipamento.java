@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.satc.equipamentos;
 
-/**
- *
- * @author Markson
- */
+
 public abstract class Equipamento {
     private int defesa;
     private int defesaMagica;
@@ -18,9 +11,17 @@ public abstract class Equipamento {
     private int valorVenda;
     private int valorCompra;
 
-    /**
-     * @return the defesa
-     */
+    public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra){
+       this.setDefesa(defesa);
+       this.setDefesaMagica(defesaMagica);
+       this.setDescricao(descricao);
+       this.setNome(nome);
+       this.setPeso(peso);
+       this.setValorCompra(valorCompra);
+       this.setValorVenda(valorVenda);
+      
+    }
+    
     public int getDefesa() {
         return defesa;
     }
