@@ -11,9 +11,17 @@ public abstract class Equipamento {
     private int valorVenda;
     private int valorCompra;
 
-    /**
-     * @return the defesa
-     */
+    public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra){
+       this.setDefesa(defesa);
+       this.setDefesaMagica(defesaMagica);
+       this.setDescricao(descricao);
+       this.setNome(nome);
+       this.setPeso(peso);
+       this.setValorCompra(valorCompra);
+       this.setValorVenda(valorVenda);
+      
+    }
+    
     public int getDefesa() {
         return defesa;
     }
