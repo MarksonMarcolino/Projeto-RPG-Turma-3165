@@ -11,7 +11,6 @@ package br.com.satc.equipamentos;
  */
 public abstract class Equipamento {
 
-    
     private int defesa;
     private int defesaMagica;
     private int peso;
@@ -29,7 +28,7 @@ public abstract class Equipamento {
         this.valorVenda = valorVenda;
         this.valorCompra = valorCompra;
     }
-    
+
     public int getDefesa() {
         return defesa;
     }
@@ -124,8 +123,5 @@ public abstract class Equipamento {
     public void setValorCompra(int valorCompra) {
         this.valorCompra = valorCompra;
     }
-    
-            
-            
-    
+
 }
