@@ -17,10 +17,19 @@ public abstract class Equipamento {
     private String nome;
     private int valorVenda;
     private int valorCompra;
+    private int lvl;
 
-    /**
-     * @return the defesa
-     */
+        public Equipamento(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
+        this.defesa = defesa;
+        this.defesaMagica = defesaMagica;
+        this.peso = peso;
+        this.descricao = descricao;
+        this.nome = nome;
+        this.valorVenda = valorVenda;
+        this.valorCompra = valorCompra;
+        this.lvl = lvl;
+    }
+
     public int getDefesa() {
         return defesa;
     }
@@ -114,6 +123,14 @@ public abstract class Equipamento {
      */
     public void setValorCompra(int valorCompra) {
         this.valorCompra = valorCompra;
+    }
+
+    public int getLvl() {
+        return lvl;
+    }
+
+    public void setLvl(int lvl) {
+        this.lvl = lvl;
     }
     
             
