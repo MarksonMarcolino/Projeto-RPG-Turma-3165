@@ -9,23 +9,23 @@ package br.com.satc.equipamentos;
  *
  * @author Edutec
  */
-public class Capadedano extends Equipamento{
+public class CapaSinistra extends Equipamento{
     private int dano;
     private int agilidade;
     private int danocritico;
-    public Capadedano(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
+    public CapaSinistra(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int lvl) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, lvl);
         this.setAgilidade(1);
         this.setDano(4);
         this.setDanocritico(3);
         this.setDefesa(3);
         this.setDefesaMagica(1);
         this.setPeso(3);
-        this.setNome("Capa de Dano");
+        this.setNome("Capa Sinistra");
         this.setValorCompra(4000);
         this.setValorVenda(2000);
-        this.setDescricao("Capa feita do couro de um touro forte portanto quem a usala terá a sua força.");
-        this.setNvlmin(10);
+        this.setDescricao("Essa capa é sinistra e causa medo em qualquer um.");
+        this.setLvl(10);
     }
 
     public int getDano() {

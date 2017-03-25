@@ -12,8 +12,8 @@ package br.com.satc.equipamentos;
 public class CapaSolar extends Equipamento{
     private int dano;
     private int danocritico;
-    public CapaSolar(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
+    public CapaSolar(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int lvl) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, lvl);
         this.setDano(2);
         this.setDanocritico(2);
         this.setDefesa(5);
@@ -23,7 +23,7 @@ public class CapaSolar extends Equipamento{
         this.setValorCompra(7000);
         this.setValorVenda(3500);
         this.setDescricao("Capa forjada no vulcão mais quente de todo reino para ter um defesa surreal.");
-        this.setNvlmin(11);
+        this.setLvl(11);
     }
 
     public int getDano() {

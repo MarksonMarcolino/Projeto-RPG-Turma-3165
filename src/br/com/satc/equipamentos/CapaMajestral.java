@@ -14,8 +14,8 @@ public class CapaMajestral extends Equipamento{
     private int destreza;
     private int sorte;
     private int agilidade;
-    public CapaMajestral(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int nvlmin) {
-        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, nvlmin);
+    public CapaMajestral(int defesa, int defesaMagica, int peso, String descricao, String nome, int valorVenda, int valorCompra, int lvl) {
+        super(defesa, defesaMagica, peso, descricao, nome, valorVenda, valorCompra, lvl);
         this.setAgilidade(3);
         this.setSorte(4);
         this.setInteligencia(5);
@@ -28,7 +28,7 @@ public class CapaMajestral extends Equipamento{
         this.setValorVenda(5000);
         this.setDescricao("Esta capa foi de um mago antigo porem muito poderoso que queria deixar "
                         + "seu legado de alguma maneira então pegou algumas de suas habilidades e imortalizou nesta capa.");
-        this.setNvlmin(15);
+        this.setLvl(15);
     }
 
     public int getInteligencia() {
